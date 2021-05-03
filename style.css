@@ -34,3 +34,13 @@ main{
     border-radius: 5px;
     margin: 10px;
 }
+
+.estimated-earnings{
+    font-size: x-large;
+    font-weight: 700;
+    color:darkblue;
+    padding: 20px 0 20px 0;
+    border: 2px solid chocolate;
+    border-radius: 5px;
+    margin: 10px;
+}
