@@ -1,1 +1,4 @@
-
+html{
+    background-image: url("dairy_cows.jpg");
+    background-size: cover;
+}
