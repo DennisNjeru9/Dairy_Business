@@ -7,22 +7,22 @@
 The dairy farm has four sheds and this website shows the daily production rate for each shed, the total daily production, and periodical earnings based on weekly, monthly, quarterly, and annual time-frames.
 
 ## Setup/Installation Requirements
-*Visual Studio (VS) Code is a must have.
-*It is mandatory that you clone the github repository.
-*Use Go Live on VS Code.
+* Visual Studio (VS) Code is a must have.
+* It is mandatory that you clone the github repository.
+* Use Go Live on VS Code.
 
 ## Known Bugs
 No bugs have been identified.
 
 ## Technologies
-*HTML
-*CSS
-*Javascript
+* HTML
+* CSS
+* Javascript
 
 ## Suport and Contact Details
 Email: dennis.njeru@student.moringaschool.com
 
 ### License
-*MIT License*
+[MIT License](./LICENSE)
 
 Copyright (c) [2021] **Dennis Njeru**
