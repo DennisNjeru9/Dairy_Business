@@ -27,7 +27,7 @@ main{
 
 .total-produce{
     font-size: x-large;
-    font-weight: 700;
+    font-weight: 400;
     color:darkblue;
     padding: 20px 0 20px 0;
     border: 2px solid chocolate;
@@ -37,10 +37,18 @@ main{
 
 .estimated-earnings{
     font-size: x-large;
-    font-weight: 700;
+    font-weight: 400;
     color:darkblue;
     padding: 20px 0 20px 0;
     border: 2px solid chocolate;
     border-radius: 5px;
     margin: 10px;
+}
+
+h1{
+    color: black;
+    text-align: center;
+    font-weight: 600;
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
