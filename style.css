@@ -2,3 +2,16 @@ html{
     background-image: url("dairy_cows.jpg");
     background-size: cover;
 }
+
+main{
+    background-color:rgba(224,255,255, 0.4);
+    width: 30%;
+    height: 80vh;
+    margin-left: 400px;
+    margin-right: 300px;
+    margin-top: 55px;
+    padding-left: 275px;
+    padding-right: 275px;
+    padding-top: 50px;
+    align-content: center;
+}
