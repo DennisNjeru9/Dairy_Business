@@ -4,7 +4,7 @@ html{
 }
 
 main{
-    background-color:rgba(224,255,255, 0.4);
+    background-color:rgba(224,255,255, 0.6);
     width: 30%;
     height: 80vh;
     margin-left: 400px;
@@ -14,4 +14,12 @@ main{
     padding-right: 275px;
     padding-top: 50px;
     align-content: center;
+}
+
+.single-sheds{
+    font-size:x-large;
+    color: chartreuse;
+    padding: 20px 0 20px 0;
+    border: 2px solid chocolate;
+    border-radius: 5px;
 }
