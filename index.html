@@ -14,20 +14,21 @@
             <div class="single-sheds">
                 <form class="daily-production">
                     <label for="shedA">Shed A Produce</label>
-                    <input type="number" name="produce" id="shedA" placeholder="Add milk volume in litres"><br>
+                    <input type="number" name="produce" id="shedA" placeholder="Enter volume of milk in litres"><br>
                     <label for="shedB">Shed B Produce</label>
-                    <input type="number" name="produce" id="shedB" placeholder="Add milk volume in litres"><br>
+                    <input type="number" name="produce" id="shedB" placeholder="Enter volume of milk in litres"><br>
                     <label for="shedC">Shed C Produce</label>
-                    <input type="number" name="produce" id="shedC" placeholder="Add milk volume in litres"><br>
+                    <input type="number" name="produce" id="shedC" placeholder="Enter volume of milk in litres"><br>
                     <label for="shedD">Shed D Produce</label>
-                    <input type="number" name="produce" id="shedD" placeholder="Add milk volume in litres"><br>
-                    <button type="submit" id="compute" onclick="add()">Compute</button>
+                    <input type="number" name="produce" id="shedD" placeholder="Enter volume of milk in litres"><br>
+                    <button type="submit" id="compute" onclick="totalProduction()">Compute</button>
                 </form>
             </div>
 
             <div class="total-produce">
                 <h1>Total Daily Production</h1>
-                <div>My total daily production in all sheds is: <span id="totalProduction"></span></div>
+
+                <div>My total daily production in all sheds is: <span id="sum"></span> litres </div>
             </div>
 
             <div class="estimated-earnings">
@@ -47,7 +48,7 @@
             </div>
 
             <div>
-                <h1></h1>
+                <h1>Monthly Earnings</h1>
                 <table>
                     <tr>
                         <th>Month</th>
