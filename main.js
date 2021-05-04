@@ -3,7 +3,7 @@ var b = document.querySelector("shedB").value;
 var c = document.querySelector("shedC").value;
 var d = document.querySelector("shedD").value;
 
-function add() {
+function add(){
     var a = parseInt(document.querySelector("shedA").value);
     var b = parseInt(document.querySelector("shedB").value);
     var c = parseInt(document.querySelector("shedC").value);

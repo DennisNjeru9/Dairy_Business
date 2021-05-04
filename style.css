@@ -58,3 +58,9 @@ input{
     margin: 2px;
 
 }
+
+button{
+    color: lime;
+    padding-left: 30px;
+    margin: 2px;
+}
