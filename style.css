@@ -91,13 +91,11 @@ td{
     font-family: Cambria, Cochin, Georgia, serif;
 }
 
-
-
 span{
     margin: 2px;
     background-color: white;
     padding: 3px 40px;
-    color: #8E5C7F;
+    color: red;
 }
 
 #earnings{
