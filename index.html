@@ -12,17 +12,15 @@
         <main>
             <h1>My Dairy Business Tracker</h1>
             <div class="single-sheds">
-                <form class="daily-production">
-                    <label for="shedA">Shed A Produce</label>
-                    <input type="number" name="produce" id="shedA" placeholder="Enter volume of milk in litres"><br>
-                    <label for="shedB">Shed B Produce</label>
-                    <input type="number" name="produce" id="shedB" placeholder="Enter volume of milk in litres"><br>
-                    <label for="shedC">Shed C Produce</label>
-                    <input type="number" name="produce" id="shedC" placeholder="Enter volume of milk in litres"><br>
-                    <label for="shedD">Shed D Produce</label>
-                    <input type="number" name="produce" id="shedD" placeholder="Enter volume of milk in litres"><br>
-                    <button type="submit" id="compute" onclick="totalProduction()">Compute</button>
-                </form>
+                <label for="shedA">Shed A Produce</label>
+                <input type="number" name="produce" id="shedA" placeholder="Enter volume of milk in litres"><br>
+                <label for="shedB">Shed B Produce</label>
+                <input type="number" name="produce" id="shedB" placeholder="Enter volume of milk in litres"><br>
+                <label for="shedC">Shed C Produce</label>
+                <input type="number" name="produce" id="shedC" placeholder="Enter volume of milk in litres"><br>
+                <label for="shedD">Shed D Produce</label>
+                <input type="number" name="produce" id="shedD" placeholder="Enter volume of milk in litres"><br>
+                <button type="submit" id="compute" onclick="totalProduction()">Compute</button>
             </div>
 
             <div class="total-produce">
@@ -33,26 +31,17 @@
 
             <div class="estimated-earnings">
                 <h1>Periodical Earnings</h1>
-                <div>
-                    My weekly dairy earnings have been:
-                </div>
-                <div>
-                    My monthly dairy earnings have been:
-                </div>
-                <div>
-                    My quarterly dairy earnings have been:
-                </div>
-                <div>
-                    My annual dairy earnings have been:
-                </div>
+                <div id="earnings">My weekly dairy earnings have been: Kshs. <span id="week"></span></div>
+                <div id="earnings">My monthly dairy earnings have been: Kshs. <span id="month"></span></div>
+                <div id="earnings">My annual dairy earnings have been: Kshs. <span id="annual_leap"></span></div>
             </div>
 
-            <div>
+            <div class="leapyearrevenues">
                 <h1>Monthly Earnings</h1>
-                <table>
+                <table id="opensesame">
                     <tr>
                         <th>Month</th>
-                        <th>Total Earnings</th>
+                        <th>Earnings</th>
                     </tr>
                 </table>
             </div>

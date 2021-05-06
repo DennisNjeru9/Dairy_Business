@@ -39,7 +39,7 @@ main{
     font-size: x-large;
     font-weight: 400;
     color:darkblue;
-    padding: 5px 0 5px 0;
+    padding: 4px 0 4px 0;
     border: 2px solid chocolate;
     border-radius: 5px;
     margin: 10px;
@@ -50,7 +50,7 @@ h1{
     text-align: center;
     font-weight: 600;
     font-size: xx-large;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 input{
@@ -74,10 +74,32 @@ table, td, th{
 
 table{
     width: 500px;
-   margin-left: auto;
-   margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#sum{
-    padding: 10px 20px;
+th{
+    font-size: large;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, serif;
+
+}
+
+td{
+    font-size: large;
+    font-weight: 300;
+    font-family: Cambria, Cochin, Georgia, serif;
+}
+
+
+
+span{
+    margin: 2px;
+    background-color: white;
+    padding: 3px 40px;
+    color: #8E5C7F;
+}
+
+#earnings{
+    padding: 5px 0;
 }
