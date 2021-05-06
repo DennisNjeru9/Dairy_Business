@@ -10,6 +10,7 @@ The dairy farm has four sheds and this website shows the daily production rate f
 * Visual Studio (VS) Code is a must have.
 * It is mandatory that you clone the github repository.
 * Use Go Live on VS Code.
+* Input values to compute daily production and periodical earnings
 
 ## Known Bugs
 No bugs have been identified.
